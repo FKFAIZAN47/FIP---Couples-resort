@@ -753,3 +753,46 @@ Couples Resort Responsive Build
     flex-direction: column;
  }
  
+#contact-check {
+   display: flex;
+   margin-bottom: 15px;
+}
+
+#contact-check p {
+   margin-left: 10px;
+}
+
+#contact-check1 {
+   display: flex;
+   margin-bottom: 15px;
+}
+
+#contact-check1 p {
+   margin-left: 10px;
+}
+
+#contact-check3 {
+   display: flex;
+   margin-bottom: 15px;
+}
+
+#contact-check3 p {
+   margin-left: 10px;
+}
+
+
+ /* Psuedo selector */
+ #contact-check input[type="checkbox"]:checked + p:after {
+   content: "✅";
+   margin-left: 15px;
+ }
+
+ #contact-check1 input[type="checkbox"]:checked + p:after {
+   content: "❌";
+   margin-left: 15px;
+ }
+
+ #contact-check3 input[type="checkbox"]:checked + p:after {
+   content: "👍";
+   margin-left: 15px;
+ }
